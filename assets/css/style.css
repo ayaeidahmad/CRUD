@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.done {
+    color: green;
+}
+.updateName {
+    display: none;
+}
+form {
+    padding: 50px 0 0 80px;
+}
+form .add , .card .save , .card .state , .card .form , .card .delete {
+    background-color: #fa3;
+    border: none;
+    padding: 5px 8px;
+    color: white;
+    margin-bottom: 5px;
+}
+form #taskName {
+    padding: 5px ;
+}
